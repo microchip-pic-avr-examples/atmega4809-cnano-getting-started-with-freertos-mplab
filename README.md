@@ -14,8 +14,9 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
 
 ## Software Used
 
-- [MPLAB X IDE v5.40 or later](https://www.microchip.com/mplab/mplab-x-ide)
-- [Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer)
+- [MPLAB® X IDE v5.40 or later](https://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 2.20 or a later
+- [MPLAB® Data Visualizer v1.1.793 or later](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/)
 - ATmega_DFP 1.4.351 or later
 
 ## Hardware Used
@@ -31,11 +32,12 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
 
 ## Operation
 
-1. Download the zip file or clone the example to get the source code
-2. Open `ATmega4809FreeRTOSExample.X` in MPLAB
-3. Make sure the kit is selected as the tool to be programmed under project settings
-4. Press the make and program button to program the device.
-5. Open data visualizer under to interact with the virtual comport on the devkit
+1. Download the zip file or clone the example to get the source code.
+2. Make sure you have the MPLAB® XC8 compiler installed.
+3. Open `ATmega4809FreeRTOSExample.X` in MPLAB®.
+4. Make sure the kit is selected as the tool to be programmed under project settings.
+5. Press the make and program button to program the device.
+6. Open data visualizer under to interact with the virtual comport on the devkit.
 
 ## Conclusion
 
