@@ -36,7 +36,7 @@ This is an example of how to get started with FreeRTOS™ on the AVR architectur
 1. Download the zip file or clone the example to get the source code.
 2. Make sure you have the MPLAB® XC8 compiler installed.
 3. Connect the ATmega4809 Curiosity Nano with the Curiosity Nano Base to your computer with a micro usb cable.
-4. Open `ATmega4809FreeRTOSExample.X` in MPLAB®.
+4. Open `atmega4809-cnano-getting-started-with-freertos-mplab.X` in MPLAB®.
 5. Make sure the kit is selected as the tool to be programmed under project settings.
 6. Press the make and program button to program the device.
 7. Open your favorite terminal application or Data visualizer and open the serial port associated with the cnano.
