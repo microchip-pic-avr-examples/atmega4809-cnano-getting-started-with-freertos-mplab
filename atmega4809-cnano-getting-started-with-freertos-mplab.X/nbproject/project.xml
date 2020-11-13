@@ -12,7 +12,10 @@
             <asminc-extensions/>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>../../atmega4809-xplained-pro-getting-started-with-freertos-mplab/atmega4809-xplained-pro-getting-started-with-freertos-mplab.X/freeRTOS</sourceRootElem>
+                <sourceRootElem>freeRTOS</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>free</name>

@@ -174,6 +174,6 @@ ISR(TERMINAL_RX_VECTOR)
 
 	xStreamBufferSendFromISR(terminal_rx_buffer, &data, sizeof(data), &xHigherPriorityTaskWoken);
 	if (xHigherPriorityTaskWoken == pdTRUE) {
-		taskYIELD_FROM_ISR();
+		vPortYieldFromISR();
 	}
 }
